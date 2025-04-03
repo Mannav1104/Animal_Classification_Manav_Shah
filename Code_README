@@ -1,0 +1,68 @@
+Sure! Here is a sample `README.md` file for your repository:
+
+```markdown
+# Multi-Class Animal Classification
+
+This repository contains an implementation of multi-class animal recognition using deep learning. The project leverages MobileNetV2 as the base model to classify 90 different animal species using images from the Animal Image Dataset available on Kaggle.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The goal of this project is to build a deep learning model capable of classifying images of 90 different animal species. The model is built using TensorFlow and Keras, with MobileNetV2 as the base model.
+
+## Dataset
+
+The dataset used for this project is the [Animal Image Dataset (90 different animals)](https://www.kaggle.com/iamsouravbanerjee/animal-image-dataset-90-different-animals) available on Kaggle. The dataset contains images of 90 different animal species.
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Mannav1104/Animal_Classification_Manav_Shah.git
+   ```
+2. Change to the repository directory:
+   ```sh
+   cd Animal_Classification_Manav_Shah
+   ```
+3. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Download and extract the dataset:
+   ```sh
+   kaggle datasets download -d iamsouravbanerjee/animal-image-dataset-90-different-animals
+   ```
+2. Run the Jupyter Notebook:
+   ```sh
+   jupyter notebook Multi_Class_Animal_Classification.ipynb
+   ```
+3. Follow the steps in the notebook to train and evaluate the model.
+
+## Results
+
+The model is trained to classify 90 different animal species. Example results and visualizations are provided in the notebook.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
+
+Feel free to customize the content further according to your specific project details and requirements.
